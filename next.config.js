@@ -3,12 +3,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    serverActions: true,
-  },
   images: {
     domains: ['localhost', 'supabase.co'],
   },
+  // experimental: { serverActions: true }, // <-- isko hata dein
 }
 
 module.exports = nextConfig
